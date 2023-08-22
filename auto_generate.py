@@ -175,7 +175,6 @@ def main(
         rtext = ""
         for word in evaluate(text):
             rtext += word
-            rtext += " "
         print(rtext)
         response.append(rtext)
 
