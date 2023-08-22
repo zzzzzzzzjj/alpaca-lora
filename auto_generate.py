@@ -172,7 +172,9 @@ def main(
         y = i.rfind("###")
         text = i[x + 3:y]
         print(text)
-        response.append(text)
+        rtext = evaluate(text)
+        print(retext)
+        response.append(retext)
 
     # 指定要写入的JSON文件的路径
     json_file_path = 'Response.json'
