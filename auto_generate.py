@@ -172,7 +172,9 @@ def main(
         y = i.rfind("###")
         text = i[x + 3:y]
         print(text)
-        rtext = evaluate(text)
+        rtext = ""
+        for word in evaluate(text):
+            rtext += text
         print(rtext)
         response.append(rtext)
 
