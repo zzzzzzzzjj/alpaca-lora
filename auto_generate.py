@@ -173,8 +173,8 @@ def main(
         text = i[x + 3:y]
         print(text)
         rtext = evaluate(text)
-        print(retext)
-        response.append(retext)
+        print(rtext)
+        response.append(rtext)
 
     # 指定要写入的JSON文件的路径
     json_file_path = 'Response.json'
